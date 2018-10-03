@@ -1,0 +1,13 @@
+main{
+	a := 329;
+	read (b, rate3); //this is a comment
+	total := a + (b + rate3) - 27;
+	write(rate3, b+50, a);
+	if (rate3 < b){
+		write(rate3, b-50, a);
+		rate3 := rate3 * rate3;
+		newTotal := rate3 / 4;
+	} else {
+		rate3 := rate3 + (34/(total+6));
+	}
+}
